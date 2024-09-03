@@ -1,6 +1,9 @@
 import styles from "./home-page.module.css";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.homePage}>
       <img className={styles.homePageChild} alt="" src="/frame-17@2x.png" />
@@ -60,7 +63,12 @@ const HomePage = () => {
       </div>
       <div className={styles.frame5}>
         <div className={styles.getStartedWrapper}>
-          <div className={styles.getStarted}>Get Started</div>
+          <div
+            className={styles.getStarted}
+            onClick={() => navigate("/chatbot")}
+          >
+            Get Started
+          </div>
         </div>
       </div>
     </div>

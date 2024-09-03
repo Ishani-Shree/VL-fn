@@ -51,7 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/" element={<ChatbotWebDesign />} />
+      <Route path="/chatbot" element={<ChatbotWebDesign />} />
     </Routes>
   );
 }

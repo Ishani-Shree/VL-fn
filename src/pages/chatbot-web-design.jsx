@@ -42,20 +42,29 @@ const ChatbotWebDesign = () => {
         <div className={styles.frameItem} />
         <img className={styles.imgicons82} alt="" src="/imgicons8-2@2x.png" />
         <b className={styles.hello}>{`Hello! `}</b>
-<div>
-        <img className={styles.imgicons82} alt="" src="/imgicons8-2@2x.png" />
-        <img className={styles.imgicons82} alt="" src="/imgicons8-2@2x.png" />
-</div>
+        <div>
+          <img className={styles.imgicons82} alt="" src="/imgicons8-2@2x.png" />
+          <img className={styles.imgicons82} alt="" src="/imgicons8-2@2x.png" />
+        </div>
       </div>
       <div className={styles.rectangleContainer}>
         <div className={styles.frameInner} />
         <b className={styles.userPrompt}>User Prompt</b>
       </div>
-      <img
+      {/* <img
         className={styles.chatbotWebDesignInner}
         alt=""
         src="/frame-10.svg"
-      />
+      /> */}
+      <div className={styles.rectangleGroup2}>
+        <div className={styles.frameItem} />
+        <img className={styles.imgicons82} alt="" src="/imgicons8-2@2x.png" />
+        <b className={styles.hello}>{`Hello! `}</b>
+        <div className={styles.likedislike}>
+          <img alt="" src="/ThumbsDown.svg" />
+          <img alt="" src="/ThumbsUp.svg" />
+        </div>
+      </div>
     </div>
   );
 };
