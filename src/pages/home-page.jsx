@@ -6,7 +6,7 @@ const HomePage = () => {
 
   return (
     <div className={styles.homePage}>
-      <img className={styles.homePageChild} alt="" src="/frame-17@2x.png" />
+      <img className={styles.homePageChild} alt="fill" src="/frame-17@2x.png" />
       <div className={styles.frame}>
         <div className={styles.frameParent}>
           <div className={styles.virtualLawyerWrapper}>
@@ -19,7 +19,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className={styles.frame1}>
+      {/* <div className={styles.frame1}>
         <div className={styles.guidelineParent}>
           <b className={styles.guideline}>{`Guideline `}</b>
           <b className={styles.faq}>FAQ</b>
@@ -27,7 +27,7 @@ const HomePage = () => {
           <b className={styles.discord}>Discord</b>
           <b className={styles.twitter}>Twitter</b>
         </div>
-      </div>
+      </div> */}
       <div className={styles.frame2}>
         <div className={styles.virtualLawyerParent}>
           <div className={styles.virtualLawyer1}>VIRTUAL LAWYER</div>
@@ -45,8 +45,8 @@ const HomePage = () => {
           <div className={styles.theVirtualLawyerContainer}>
             <p className={styles.theVirtualLawyer}>
               The "Virtual Lawyer" project develops an AI legal chatbot using
-              AILA/Indian Legal Corpus datasets, Python, PyTorch, and
-              InLegalBERT.
+              AILA/Indian Penal Code datasets, Python, LLMs, and
+              RAG models.
             </p>
             <p className={styles.theVirtualLawyer}>
               {" "}
